@@ -32,3 +32,7 @@ myseries = pd.Series(calories)
 print(myseries)
 print("\n")
 
+#creating series only from selected labels i.e the keys
+
+myshortseries = pd.Series(calories,index=["day2","day3"])
+print(myshortseries)
