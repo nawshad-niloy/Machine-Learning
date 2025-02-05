@@ -36,3 +36,6 @@ print("\n")
 
 myshortseries = pd.Series(calories,index=["day2","day3"])
 print(myshortseries)
+
+
+
